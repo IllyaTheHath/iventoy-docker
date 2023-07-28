@@ -4,7 +4,7 @@ Docker container for [iVentoy](https://iventoy.com)
 
 ## Usage
 ```
-docker run --privileged --name iventoy --network host -v /path/to/data:/data -v /path/to/iso:/iso -v /path/to/user-script:/user illyathehath/iventoy:latest
+docker run --privileged --name iventoy --network host -v /path/to/data:/iventoy/data -v /path/to/iso:/iventoy/iso -v /path/to/user-script:/iventoy/user illyathehath/iventoy:latest
 ```
 
 ## Ports
