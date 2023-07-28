@@ -4,8 +4,7 @@ Docker container for [iVentoy](https://iventoy.com)
 
 ## Usage
 ```
-docker buildx build -t iventoy .
-docker run --privileged --name iventoy --network host -v /path/to/data:/data -v /path/to/iso:/iso -v /path/to/user-script:/user
+docker run --privileged --name iventoy --network host -v /path/to/data:/data -v /path/to/iso:/iso -v /path/to/user-script:/user illyathehath/iventoy:latest
 ```
 
 ## Ports
